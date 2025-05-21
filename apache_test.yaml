@@ -1,5 +1,9 @@
 - name: Setup httpd server
   hosts: tapq1191lv
+  user: prisca21
+  become: true
+  become_method: sudo
+  become_user: root
   tasks:
     - name: Install httpd
       ansible.builtin.package:
