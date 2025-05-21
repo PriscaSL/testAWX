@@ -1,5 +1,5 @@
 - name: Setup httpd server
-  hosts: cibleInventory_name
+  hosts: server1191lv
   tasks:
     - name: Install httpd
       ansible.builtin.package:
