@@ -8,3 +8,4 @@ AWX
 5 - Create Job Template (Modèle) (configuration du scenario du playbook qui sera executé)
 6 - Run the Job (Job Template -> Lancer ) 
 
+7- verification : systemctl status httpd
