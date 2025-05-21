@@ -1,5 +1,5 @@
 - name: Setup httpd server
-  hosts: se1191
+  hosts: tapq1191lv
   tasks:
     - name: Install httpd
       ansible.builtin.package:
